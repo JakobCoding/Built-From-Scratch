@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    
 </style>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -20,40 +22,64 @@
 <!-- input container -->
 <div id="input-form-container">
     <form id="input-form">
-        <legend id="amount-header">Amount:</legend>
+        <legend id="amount-header"><b>Amount:</b></legend>
         <!-- <label for="text">Amount:</label> -->
-        <input type="text" id="input-amount" placeholder="Enter amount">
+        <input type="text" id="input-amount" placeholder="Enter Amount:" required>
     </form>
 </div>
 
 <!-- From Currency Container 1 -->
 <div id="from-currency-container">
     <form id="from-currency-form">
-        <legend id="from-header">From:</legend>
+        <legend id="from-header"><b>From Currency:</b></legend>
         <!-- <label for="text">Amount:</label> -->
         
-        <input type="text" id="input-currency"/>
-        <select name="Currency" id="currency">
-            <option>USD:</option>
-            <option>AUD:</option>
-            <option>IRD:</option>
-            <option>BTC:</option>
-            <option>GBP:</option>
-            <option>CAD:</option>
-            <option>MXN:</option>
-            <option>EUR:</option>
-            <option>JPY:</option>
+        <select name="currency" class="currency" id="currency">
+            <option class="currency">USD: US Dollar</option>
+            <option class="currency">AUD: Austalian Dollar</option>
+            <option class="currency">IRD: Indonesian Roupe</option>
+            <option class="currency">BTC: BitCoin</option>
+            <option class="currency">GBP: English Pound</option>
+            <option class="currency">CAD: Canadian Dollar</option>
+            <option class="currency">MXN: Mexican Peso</option>
+            <option class="currency">EUR: Euro</option>
+            <option class="currency">JPY: Japanese Yen</option>
         </select>
-        
-        
     </form>
 </div>
 
+<!-- Convert button logo container -->
+ <div id="convert-logo">
+    <button type="button" id="convert-btn">
+        <img src="/currency-converter/assests/convert.svg" id="svg" alt="button">
+    </button>
+ </div>
 
+<!-- To Currency Form container  -->
 
+<div id="from-currency-container">
+    <form id="from-currency-form">
+        <legend id="from-header"><b>To Currency:</b></legend>
+        <!-- <label for="text">Amount:</label> -->
+        
+        <select name="currency" class="currency" id="currency">
+            <option class="currency">USD: US Dollar</option>
+            <option class="currency">AUD: Austalian Dollar</option>
+            <option class="currency">IRD: Indonesian Roupe</option>
+            <option class="currency">BTC: BitCoin</option>
+            <option class="currency">GBP: English Pound</option>
+            <option class="currency">CAD: Canadian Dollar</option>
+            <option class="currency">MXN: Mexican Peso</option>
+            <option class="currency">EUR: Euro</option>
+            <option class="currency">JPY: Japanese Yen</option>
+        </select>
+    </form>
+</div>
 
-
-
+<!-- Convert Button -->
+ <div>
+    <button type="button" id="big-btn">Convert</button>
+ </div>
 
 
 

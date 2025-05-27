@@ -12,11 +12,11 @@
 
 
 /* -------Font family reference-------- */
-.fjalla-one-regular {
+/* .fjalla-one-regular {
   font-family: "Fjalla One", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 /* ------------From Currency container----------------- */
 
@@ -28,13 +28,17 @@
 
 #from-currency-form {
     padding: 10px;
-    font-family: "Fjalla One";
+    font-family: "Roboto";
 
 }
 
-#input-currency {
+.currency {
+    font-family: "Roboto";
+}
+
+#currency {
     border-radius: 5px;
-    width: 9rem;
+    width: 11rem;
     padding: 10px;
     margin: 5px;
 }
@@ -46,12 +50,14 @@
 /* ------------input container------------- */
 #input-form-container {
     display: flex;
+    
 }
 
 #input-container {
     display: flex;
     align-items: center;
     position: relative;
+    
 }
 
 #h1-containter {
@@ -62,17 +68,17 @@
 h1 {
     padding: 10px;
     font-family: "Fjalla One";
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 #input-form {
     padding: 10px;
-    font-family: "Fjalla One";
+    font-family: "Roboto";
 }
 
 #amount-header {
     padding: 10px;
-    font-family: "Fjalla One";
+    font-family: "Roboto";
 }
 
 #input-amount {
@@ -80,6 +86,38 @@ h1 {
     margin-left: 5px;
     width: 15rem;
     border-radius: 10px;
-    font-family: "Fjalla One";
+    font-family: "Roboto";
+    border-color: rgb(119, 114, 114);
+}
+
+/* button */
+
+#convert-btn {
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    margin-left: 17px;
+    background: none;
+}
+
+#svg {
+    width: 3rem;
+    
+}
+
+#convert-btn:hover {
+    background-color: cyan;
+}
+
+#big-btn {
+    padding: 12px;
+    margin-left: 13px;
+    width: 15rem;
+    border-radius: 10px;
+    background-color: rgb(57, 97, 255);
+    border: none;
+    
 }
 
