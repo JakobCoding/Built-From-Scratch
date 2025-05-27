@@ -1,0 +1,85 @@
+/* --------------Global Styling --------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+} */
+
+
+/* -------Font family reference-------- */
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ------------From Currency container----------------- */
+
+#from-currency-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#from-currency-form {
+    padding: 10px;
+    font-family: "Fjalla One";
+
+}
+
+#input-currency {
+    border-radius: 5px;
+    width: 9rem;
+    padding: 10px;
+    margin: 5px;
+}
+
+#from-header {
+   margin: 5px;
+}
+
+/* ------------input container------------- */
+#input-form-container {
+    display: flex;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#h1-containter {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+    font-family: "Fjalla One";
+    margin-left: 10px;
+}
+
+#input-form {
+    padding: 10px;
+    font-family: "Fjalla One";
+}
+
+#amount-header {
+    padding: 10px;
+    font-family: "Fjalla One";
+}
+
+#input-amount {
+    padding: 10px;
+    margin-left: 5px;
+    width: 15rem;
+    border-radius: 10px;
+    font-family: "Fjalla One";
+}
+
