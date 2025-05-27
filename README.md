@@ -9,3 +9,5 @@
 **1. Currency Converter App** - Build with HTML, CSS and JavaScript
 
 **App relavence:** This is an App that I use regularly in daily life so I decided to build it
+**Progress Screenshot-**
+![progress screenshot](/currency-converter/assests/currency-converter-screenshot.png)
