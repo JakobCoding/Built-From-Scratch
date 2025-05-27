@@ -8,6 +8,7 @@
 /* body {
     display: flex;
     justify-content: center;
+    
 } */
 
 
@@ -130,3 +131,39 @@ h1 {
     color: #fff;
     width: 50px;
 }
+
+/* Bottom Banner */
+/* #section {
+    display: grid;
+    background-color: chocolate;
+} */
+
+/* .flag {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flexbox;
+    justify-content:center;
+    position: relative;
+    width: 130px;
+   
+}
+
+.flag2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flexbox;
+    justify-content:center;
+    position: relative;
+    width: 130px;
+   
+}
+
+.flag3 {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: flexbox;
+    justify-content:center;
+    position: relative;
+    width: 130px;
+   
+} */
