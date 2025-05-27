@@ -21,7 +21,6 @@ Use **semantic HTML** and keep it modular and logical. Here's how you could brea
     - Select for target currency.
     - Convert button.
   - A `<div>` or `<p>` to show the result.
-    ![UI image example](/assests/img.png)
 
 ### 🏗️ Suggestion for Building Blocks (no code, just structure):
 
