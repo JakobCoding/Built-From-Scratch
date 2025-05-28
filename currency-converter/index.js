@@ -18,13 +18,13 @@ async function fetchApi() {
     // Parse the response as JSON
     const data = await response.json();
 
-    // Log the data to see what you recieved (or call another function to handle it - this is for development porposes and will be removed at the end of buiding the application once we are sure everything works)
+    // Log the data to see what you received (or call another function to handle it - this is for development proposes and will be removed at the end of building the application once we are sure everything works)
     console.log(data);
 
     // Return or process the fetched data for future use
     return data;
   } catch (error) {
-    // Handle erros gracefully and output a messge in the console
+    // Handle errors gracefully and output a message in the console
     console.error("Failed to fetch exchange rates:", error);
     //optionally, trigger a UI update or alert for the user here
   }
