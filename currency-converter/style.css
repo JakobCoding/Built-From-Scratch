@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: rgb(252, 170, 88);
     display: flex;
     justify-content: center;
     
