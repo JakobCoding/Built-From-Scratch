@@ -63,3 +63,23 @@ button {
     font-family: Roboto, sans-serif;
 
 }
+
+/* Media Queries - Smaller screens*/
+
+@media (max-width: 768px) {
+    .background-image {
+        object-position: top center;
+        /* Focuses higher on mobile */
+        height: 100%;
+        /* Optional: let it scale with content if not fixed */
+    }
+}
+
+/* Media Queries - For larger Screens */
+
+@media (min-width: 1024px) {
+    .background-image {
+        object-position: center center;
+        height: 100vh;
+    }
+}
