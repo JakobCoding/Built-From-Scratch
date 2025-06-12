@@ -7,8 +7,35 @@
 
 body {
     background-color: rgb(16, 154, 122);
+    align-items: center;
+    justify-content: center;
 }
 
 button {
     color: blue;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    max-width: 500px;
+    min-width: 200px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.btn {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    background-color: green;
+    color: white;
 }
