@@ -1,0 +1,14 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(16, 154, 122);
+}
+
+button {
+    color: blue;
+}
